@@ -1,6 +1,6 @@
 import Paper from "@mui/material/Paper"
 
-const ReviewElementSurface = ({ children }: React.PropsWithChildren<{}>) => {
+const ReviewCreationSurface = ({ children }: React.PropsWithChildren<{}>) => {
     return (
         <Paper elevation={10}>
             {children}
@@ -8,4 +8,4 @@ const ReviewElementSurface = ({ children }: React.PropsWithChildren<{}>) => {
     )
 }
 
-export default ReviewElementSurface
+export default ReviewCreationSurface
